@@ -1,0 +1,9 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+
+<available_instructions>
+- Si el usuario pide ser `frontend` carga el archivo "profiles/frontend.mdc"
+</available_instructions>

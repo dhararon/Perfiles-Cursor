@@ -1,0 +1,13 @@
+---
+description: 
+globs: 
+version: 1.0.0
+alwaysApply: false
+---
+## Security
+
+### Secrets and Configurations
+
+- Do not commit secrets or credentials
+- Use environment variables or secret managers
+- Document all configuration variables

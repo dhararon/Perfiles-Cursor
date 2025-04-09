@@ -1,0 +1,32 @@
+---
+description: 
+globs: 
+version: 1.0.0
+alwaysApply: false
+---
+## CI/CD
+
+### Pipelines
+Each branch must go through the following stages:
+- `Lint`
+- `Tests`
+- `Build`
+- `Deploy` (according to environment)
+
+### Environments
+- `development`: Local development
+- `staging`: Integration testing
+- `production`: Production
+
+### Branches
+- `main`: PRoduction code
+- `develop`: Active development
+- `feature/*`: New features
+- `fix/*`: Fixes
+- `release/*`: Release preparation
+
+### Code Review
+- Pull Requests required
+- Minimum 1 approval required
+- CI must pass before merge
+- No direct merges to main

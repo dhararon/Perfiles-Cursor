@@ -1,0 +1,36 @@
+---
+description: 
+globs: 
+version: 1.0.0
+alwaysApply: false
+---
+## Monitor And Logging
+
+### Logs
+
+- Appropriate log levels: `ERROR`, `WARN`, `INFO`, `DEBUG`
+- Include relevant context
+- Consistent format
+- Timestamp in UTC
+
+### Metrics
+
+- Response Time
+- Resource usage
+- Error rate
+- Availability
+
+## Performance
+
+### Optimization
+
+- Profile before optimizing
+- Document bachmarks
+- Monitor Key metrics
+- Premature optimization is the root of all evil
+
+### Cache
+
+- Define cache policies
+- Document TTL
+- Monitor hit/miss ratio

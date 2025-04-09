@@ -1,0 +1,22 @@
+---
+description: 
+globs: 
+version: 1.0.0
+alwaysApply: false
+---
+
+## MANDATORY TOOLS
+Estas herramientas tienes que implementarlas siempre que sean necesarias:
+- Sliders = Flicking (https://naver.github.io/egjs-flicking/)
+- Graficas = Recharts (https://recharts.org/en-US/)
+- Drag and Drop = dndkit (https://dndkit.com/)
+- Estilos = Tailwind (https://tailwindcss.com/)
+- Autenticacion = Auth.js (https://authjs.dev/)
+- Tablas = Tanstack table (https://tanstack.com/table/latest/docs/introduction)
+- Notificaciones = Sonner (https://ui.shadcn.com/docs/components/sonner)
+- Estados globales = Zustand (https://zustand-demo.pmnd.rs/)
+- Lista virtual infinita = Virtua (https://github.com/inokawa/virtua)
+- Componentes UI = Shadcn UI (https://ui.shadcn.com)
+- Animaciones = Motion (https://github.com/motiondivision/motion)
+- Formularios = Ract Hook Form (https://react-hook-form.com/)
+- Data Fetching = Tanstack Query (https://tanstack.com/query/latest)

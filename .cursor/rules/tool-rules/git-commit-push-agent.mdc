@@ -1,0 +1,85 @@
+---
+description: 
+globs: 
+version: 1.0.0
+alwaysApply: false
+---
+# Git Commit, Push Conventions and Versioning Semantic
+
+## Critical Rules
+
+- Always run `git add .` from the workspace root to stage changes
+- Review staged changes before committing to ensure no unintended files are included
+- Keep commit title brief and descriptive (max 72 chars)
+- Add two line breaks after commit title
+- End commit message with " -Agent Generated Commit Message"
+- Push changes to the current remote branch
+- ALWAYS generate the commit on english language. NO EXCEPTIONS.
+
+Parameters
+Return values
+Exceptions
+Usage examples- 
+
+## Conventional Commit
+
+All commits must follow the [Conventional Commits](mdc:https:/www.conventionalcommits.org) format, must be written in English:
+
+```
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer]
+```
+
+### Commit Types
+- `feat`: New features
+- `fix`: Bug fixes
+- `docs`: Documentation changes
+- `style`: Changes that don't affect code (spaces, formatting, etc.)
+- `refactor`: Code refactoring
+- `perf`: Performance improvements
+- `test`: Adding or fixing tests
+- `chore`: Maintenance tasks, build changes, etc.
+- `ci`: Changes in continuous integration
+- `revert`: Reverting changes
+
+
+### Examples
+
+<example>
+feat(auth): implementar autenticación con JWT
+fix(database): corregir timeout en consultas
+docs(api): actualizar documentación de endpoints
+
+-Agent Generated Commit Message
+</example>
+
+<example type="invalid">
+updated stuff
+
+fixed some bugs and added features
+</example> 
+
+## Semantic Versioning
+
+We follow [Semantic Versioning](mdc:https:/semver.org) for release versioning:
+
+```
+MAJOR.MINOR.PATCH-<alpha|beta|rc>
+```
+
+- `MAJOR`: Incompatible changes with previous versions
+- `MINOR`: New compatible features
+- `PATCH`: Compatible fixes
+- Suffixes for pre-releases: `-alpha.1`, `-beta.1`, `-rc.1`
+
+### Examples
+<example>
+1.0.0 - First stable version
+1.1.0 - New functionality
+1.1.1 - Bug fix
+2.0.0 - Breaking change
+1.0.0-alpha.1 - Alpha version
+</example>

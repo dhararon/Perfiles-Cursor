@@ -1,0 +1,26 @@
+---
+description:
+globs: **/*.{ts,tsx,js,jsx,css}
+version: 1.0.0
+alwaysApply: false
+---
+## Coding Best Practices
+
+### Documentation
+- All modules must have docstrings explaining their purpose
+- The public functions must be documented
+    - Parameters
+    - Return values
+    - Exceptions
+    - Usega examples
+
+### Naming
+- Variables and functions: `snake_case`
+- Clases: `PascalCase`
+- Constants: `UPPER_SNAKE_CASE`
+- Files: `sniake_case.ext`
+
+### Testing
+- Unit tests for all new functionality
+- Test naming: `test_<functionality>_<scenario>`
+- Minimum coverage: 80%
