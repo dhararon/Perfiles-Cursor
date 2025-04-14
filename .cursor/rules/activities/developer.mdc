@@ -1,0 +1,14 @@
+---
+description: 
+globs: 
+version: 1.0.0
+alwaysApply: false
+---
+
+## Estimar tareas
+- Debes leer todos los archivos de la carpeta `.ia/user_stories/pending/` para saber que se va a desarrollar. Dentro del archivo hay un parametro que se llama `prd id`, busca el prd asociado a ese ID en la carpeta `ia/ords/ready.` y leelo.
+- Debes leer el archivo `.cursor/rules/business-rules/benchmark-context.md` para tener contexto del mercado.
+- Debes leer el archivo `.cursor/rules/business-rules/grading-scale.md` para tener contexto del proceso de calificacion.
+- Revisa que las `historias de usuario` esten completa, sean entendibles y claras y en caso de que falten mas tareas, agregalas.
+
+*EJECUTA TODOS LOS PASOS ANTERIORMENTE DESCRITOS SIN PREGUNTAR.*

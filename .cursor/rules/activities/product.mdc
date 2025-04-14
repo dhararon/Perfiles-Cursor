@@ -1,0 +1,48 @@
+---
+description: 
+globs: 
+version: 1.0.0
+alwaysApply: false
+---
+
+## Crear prds
+
+- Debes leer todos los archivos de la carpeta `.ia/prds/` para tener un mejor contexto de los productos que se crearon anteriormente.
+- Debes leer el archivo `.cursor/rules/business-rules/benchmark-context.md` para tener contexto del mercado.
+- Debes leer el archivo `.cursor/rules/business-rules/grading-scale.md` para tener contexto del proceso de calificacion.
+- Ejecuta la seccion `PRDs pendientes`.
+
+---
+
+## PRDs pendientes
+
+- El `work directory` de las `ideas` es `.ia/ideas/`.
+- El `work directory` de los `prds pendientes` es `.ia/prds/pending`.
+- Lee todas las ideas y conviertelas en archivos `prd` utilizando el template ubicado en `.cursor/templates/template-prd.md`. Despues tienes que almacenar en formato `markdown` la informacion del template dentro de la carpeta `.ia/prds/pending/` con el formato para el nombre del archivo como `{date}_{title}` donde `{date}` es el `timestamp` actual con el formato `YYYYMMDDSSMM` y `{tile}` es un titulo generado por ti, corto, maximo 4 palabras.
+
+*EJECUTA TODOS LOS PASOS ANTERIORMENTE DESCRITOS SIN PREGUNTAR.*
+
+---
+
+## PRDs ready
+
+- El `work directory` de los `prds pendientes` es `.ia/prds/pending`.
+- El `work directory` de los `prds listos` es `.ia/prds/ready`.
+- El `work directory` de las historias de usuario es `.ia/user_stories/pending`.
+- Lee todos los prd dentro de la ubicacion de `prds pendientes` y genera las historias de usuario basado en el template ubicado en `.cursor/templates/template-story.md`. Despues tienes que almacenar el resultado en la carpeta de las `historias de usuario`, donde el nombre del archivo es el mismo que el nombre del archivo `prd`.
+- Finaliza moviendo el archivo `prd` de la carpeta de `prds pendientes` a la carpeta de `prds listos`.
+- Verifique que el archivo se haya movido con exito, en caso de que exista en ambas carpetas, elimina el archivo de `prd pendientes`.
+
+*EJECUTA TODOS LOS PASOS ANTERIORMENTE DESCRITOS SIN PREGUNTAR.*
+
+---
+
+# Flujo de trabajo
+
+- Si te piden un `crear un PRD`, desarrolla toda la idea con el template ubicado en `.cursor/templates/template-prd.md`. Despues tienes que almacenar en formato `markdown` la informacion del template dentro de la carpeta `.ia/prds/pending/` con el formato para el nombre del archivo como `{date}_{title}` donde `{date}` es el `timestamp` actual con el formato `YYYYMMDDSSMM` y `{tile}` es un titulo generado por ti, corto, maximo 4 palabras.
+- Si te piden `iniciar la planeacion`, mueve el `prd` de la carpeta `.ia/prds/pending/` a la carpeta `.ia/prds/ready/`.
+- Lee todos los `prds` dentro de la carpeta `.ia/prds/ready/` y genera sus users stories con el template ubicado en `.cursor/templates/template-story.md` y almacena los user stories dentro de la carpeta `.ia/user_stories` con el mismo nombde del `prd`.
+- Cuando termines de cargar los `user stories`, vuelve a leer el `prd`, si todo te hace sentido, termina aqui, si no, itera con los pasos declarados anteriormente.
+- Cuando te diga `revisa stories` tienes que ir a la carpeta `.ia/user_stories`, leer todos los archivo y verificar que todas las tareas estan marcadas como completadas. SI todas las tareas estan completadas, mueve el prd a la carpeta `ia/prds/done` y tambien mueve el archivo de los user stories a la carpeta `.ia/user_stories/done/`.
+
+*EJECUTA TODOS LOS PASOS ANTERIORMENTE DESCRITOS SIN PREGUNTAR.*

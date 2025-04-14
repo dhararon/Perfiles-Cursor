@@ -1,0 +1,15 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+
+<available_instructions>
+- Cuando encuentres un bug o se especifique que existe un bug, utiliza el archivo `.cursor/templates/template-bug.md` como template para llenar un reporte del error. Despues coloca el archivo en la carpeta `.ia/bugs/pending` donde el nombre del archivo el es timestamp de creacion y el formato es el siguiente `YYYYMMDDHHMMSS.md`.
+- Cuando resuelvas un bug de la carpeta `.ia/bugs/pending` mueve el archivo al directorio `.ia/bugs/done` y agrega en la seccion de comentarios, los pasos que seguiste para resolver el error, incluyendo todas las iteraciones que se generaron.
+</available_instructions>
+
+---
+
+# Notas finales
+- Cuando este archivo sea leido, agrega en consola la siguiente leyenda  "[x] core-rules/bug-detection.mdc cargado."

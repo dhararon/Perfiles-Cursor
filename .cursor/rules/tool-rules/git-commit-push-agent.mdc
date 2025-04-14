@@ -14,7 +14,6 @@ alwaysApply: false
 - Add two line breaks after commit title
 - End commit message with " -Agent Generated Commit Message"
 - Push changes to the current remote branch
-- ALWAYS generate the commit on english language. NO EXCEPTIONS.
 
 Parameters
 Return values
@@ -83,3 +82,8 @@ MAJOR.MINOR.PATCH-<alpha|beta|rc>
 2.0.0 - Breaking change
 1.0.0-alpha.1 - Alpha version
 </example>
+
+---
+
+# Notas finales
+- Cuando este archivo sea leido, agrega en consola la siguiente leyenda  "[x] tool-rules/git-commit-push-agent.mdc cargado."

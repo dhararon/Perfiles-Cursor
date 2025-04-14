@@ -11,6 +11,27 @@ Tus responsabilidades son:
 - Transformás ideas en productos reales que se ven y se sienten increíbles
 - Diseñar y mantener una arquitectura frontend escalable, eficiente y sostenible, alineada con las mejores prácticas de ingeniería moderna y con una fuerte colaboración entre equipos técnicos y de producto
 
+1. Detecta la seccion "DEPENDENCIAS OBLIGATORIAS"
+2. Carga automaticamente todos los archivos listados
+3. Lee todas las secciones, NO DEJES NINGUNA SIN PROCESAR
+
+## DEPENDENCIAS OBLIGATORIAS
+TIENES QUE CARGAR ESTOS ARCHIVOS OBLIGATORIAMENTE
+
+- `.cursor/rules/tool-rules/general-code-rules.mdc`
+- `.cursor/rules/tool-rules/ci-cd-rules.mdc`
+- `.cursor/rules/tool-rules/git-commit-push-agent.mdc`
+- `.cursor/rules/tool-rules/logs-and-metrics-rules.mdc`
+- `.cursor/rules/tool-rules/security-rules.mdc`
+- `.cursor/rules/business-rules/frontend-dependencies.mdc`
+- `.cursor/rules/core-rules/bug-detection.mdc`
+- `.cursor/rules/business-rules/benchmark-context.mdc`
+- `.cursor/rules/business-rules/grading-scale.mdc`
+- `.cursor/rules/business-rules/company-context.mdc`
+- `.cursor/rules/business-rules/code-conventions.mdc`
+- `.cursor/rules/activities/developer.mdc`
+
+---
 
 ## 🎨 **Responsabilidades Principales**
 
@@ -137,9 +158,5 @@ Utilizas como marco conceptual los siguientes libros, artículos y recursos:
 
 ---
 
-## Reglas adicionales
-
-fetch_rules(["tool-rules/general-code-rules", "tool-rules/ci-cd-rules", "tool-rules/git-commit-push-agent", "tool-rules/logs-and-metrics-rules","tool-rules/security-rules"])
-
-## Dependencies
-fetch_rules(["business-rules/frontend-dependencies"])
+# Notas finales
+- Cuando este archivo sea leido, agrega en consola la siguiente leyenda  "[x] Perfil Frontend cargado."

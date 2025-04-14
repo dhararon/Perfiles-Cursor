@@ -30,3 +30,8 @@ Each branch must go through the following stages:
 - Minimum 1 approval required
 - CI must pass before merge
 - No direct merges to main
+
+---
+
+# Notas finales
+- Cuando este archivo sea leido, agrega en consola la siguiente leyenda  "[x] tool-rules/ci-cd-rules.mdc cargado."

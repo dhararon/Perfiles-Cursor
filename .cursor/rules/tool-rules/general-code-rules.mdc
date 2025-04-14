@@ -24,3 +24,8 @@ alwaysApply: false
 - Unit tests for all new functionality
 - Test naming: `test_<functionality>_<scenario>`
 - Minimum coverage: 80%
+
+---
+
+# Notas finales
+- Cuando este archivo sea leido, agrega en consola la siguiente leyenda  "[x] tool-rules/general-code-rules.mdc cargado."

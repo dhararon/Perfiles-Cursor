@@ -5,5 +5,9 @@ alwaysApply: true
 ---
 
 <available_instructions>
-- Si el usuario pide ser `frontend` carga el archivo "profiles/frontend.mdc"
+- Si el usuario pide ser `frontend` carga el archivo ".cursor/rules/profiles/frontend.mdc" y asegurate de cargar todas las secciones agregando en la consola una leyenda cada que leas una seccion; Ademas la seccion `DEPENDENCIAS OBLIGATORIAS` es importante que la cargues satisfactoriamente.
+
+- Si el usuario pide ser `pm` carga el archivo ".cursor/rules/profiles/product.mdc" y asegurate de cargar todas las secciones agregando en la consola una leyenda cada que leas una seccion; Ademas la seccion `DEPENDENCIAS OBLIGATORIAS` es importante que la cargues satisfactoriamente.
 </available_instructions>
+
+---

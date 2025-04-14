@@ -11,3 +11,8 @@ alwaysApply: false
 - Do not commit secrets or credentials
 - Use environment variables or secret managers
 - Document all configuration variables
+
+---
+
+# Notas finales
+- Cuando este archivo sea leido, agrega en consola la siguiente leyenda  "[x] tool-rules/security-rules.mdc cargado."

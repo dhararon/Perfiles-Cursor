@@ -34,3 +34,8 @@ alwaysApply: false
 - Define cache policies
 - Document TTL
 - Monitor hit/miss ratio
+
+---
+
+# Notas finales
+- Cuando este archivo sea leido, agrega en consola la siguiente leyenda  "[x] tool-rules/logs-and-metrics-rules.mdc cargado."
